@@ -1,24 +1,15 @@
 import 'package:flutter/material.dart';
 
-void main() => runApp(Column(
-      children: [
-        const Text(
-          'Deliver features faster',
-          textDirection: TextDirection.ltr,
-        ),
-        const Text(
-          'Craft beautiful UIs novo teste',
-          textDirection: TextDirection.ltr,
-        ),
-        Column(
-          children: const [
-            Text(
-              'Texto esperado',
-              textDirection: TextDirection.ltr,
-            ),
-          ],
-        )
-      ],
-    ));
+void main() => runApp(
+  MaterialApp(
+    home: Scaffold(
+      appBar: AppBar(title: Text('Transferências'),),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {  },
+        child: Icon(Icons.add),
+      ),
+    ),
+  )
+);
 
 // parei na aula 08
